@@ -1,0 +1,8 @@
+main {
+    margin-left: auto; /* как поместить КОНТЕНТ по центру страницы? */
+    margin-right: auto;
+}
+
+* {
+    background-color: rgb(85, 195, 85);
+}
