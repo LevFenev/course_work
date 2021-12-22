@@ -27,14 +27,14 @@
 
             <div class="form-group">
                 <label for="comment-title">Введите имя</label>
-                <input type="text" name="name" id="review-name" class="form-control">
+                <input required type="text" name="name" id="review-name" class="form-control">
             </div>
             <div class="form-group mt-3">
                 <label for="comment-text">Введите текст</label>
-                <textarea name="comment" id="review-comment" class="form-control" rows="3"></textarea>
+                <textarea required name="comment" id="review-comment" class="form-control" rows="3"></textarea>
             </div>
 
-            <input type="hidden" name="type" value="news">
+            <input required type="hidden" name="type" value="news">
 
             <button type="submit" class="btn btn-primary mt-3">Отправить</button>
     </form>

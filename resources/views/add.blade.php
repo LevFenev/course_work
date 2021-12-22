@@ -25,22 +25,22 @@
 
             <div class="form-group mt-3">
                 <label for="heading">Название новости / мероприятия</label>
-                <input  id="heading" name="heading" type="text" class="form-control">
+                <input  id="heading" name="heading" type="text" class="form-control" required>
             </div>
 
             <div class=" form-group mt-3">
                 <label for="description" class="form-label">Содержание</label>
-                <textarea class="form-control" id="description" name="description" rows="4"></textarea>
+                <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
             </div> 
 
             <div class="form-group ">
                 <label for="name">Имя автора</label>
-                <input  id="name" name="name" type="text" class="form-control">
+                <input  id="name" name="name" type="text" class="form-control" required>
             </div>
 
             <div class="form-group mt-3">
                 <label for="date_create">Дата</label>
-                <input id="date_create" name="date_create"  type="date"  class="form-control">
+                <input id="date_create" name="date_create"  type="date"  class="form-control" required>
             </div>
                 <button type="submit" class="btn btn-primary mt-3">Опубликовать</button>
         </form>
