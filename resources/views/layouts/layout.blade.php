@@ -24,16 +24,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/course/public/">Главная</a>
+          <a class="nav-link" aria-current="page" href="/">Главная</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/course/public/about">О нас</a> <!-- было nav-link active -->
+          <a class="nav-link" aria-current="page" href="/about">О нас</a> <!-- было nav-link active -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/course/public/news">Новости</a>
+          <a class="nav-link" href="/news">Новости</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/course/public/events">Мероприятия</a>
+        <a class="nav-link" href="/events">Мероприятия</a>
         </li>
       </ul>
     </div>

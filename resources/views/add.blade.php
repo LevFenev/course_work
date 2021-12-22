@@ -13,7 +13,7 @@
             </div>
         </p>
 
-            <form method="post" action="/course/public/" class="col-md-4 col-sm-12">
+            <form method="post" action="/" class="col-md-4 col-sm-12">
         @csrf
             <div class="form-group mt-3">
                 <label for="type">Тип публикации</label>
