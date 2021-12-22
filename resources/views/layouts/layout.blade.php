@@ -9,10 +9,12 @@
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <!-- styles -->
         <link rel="stylesheet" type="text/css" href="/course/resources/css/style.css">
     </head>
 <body>
-    <header>
+    <header style="background-color: black;"> <!-- цвет не меняется -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -25,7 +27,7 @@
           <a class="nav-link" aria-current="page" href="/course/public/">Главная</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/course/public/about">О нас</a> <!--nav-link active -->
+          <a class="nav-link" aria-current="page" href="/course/public/about">О нас</a> <!-- было nav-link active -->
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/course/public/news">Новости</a>
